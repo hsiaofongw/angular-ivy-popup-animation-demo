@@ -1,0 +1,24 @@
+p {
+  font-family: Lato;
+}
+
+.box {
+  animation-name: popup;
+  animation-duration: 500ms;
+  width: 300px;
+  height: 200px;
+  background-color: blue;
+}
+
+@keyframes popup {
+  from {
+    position: relative;
+    top: 100px;
+  }
+
+  to {
+    position: relative;
+    top: 0px;
+  }
+}
+
