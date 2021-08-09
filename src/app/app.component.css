@@ -8,6 +8,11 @@ p {
   width: 300px;
   height: 200px;
   background-color: blue;
+
+  transition-property: transform;
+  transition-duration: 250ms;
+
+  cursor: pointer;
 }
 
 @keyframes popup {
@@ -22,3 +27,6 @@ p {
   }
 }
 
+.box:hover {
+  transform: scale(1.1);
+}
